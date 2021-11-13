@@ -1,0 +1,19 @@
+[package]
+name = "dankup"
+version = "0.1.0"
+authors = ["Greg V <greg@unrelenting.technology>"]
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0"
+argh = "0.1.6"
+# bao = "0.12"
+# libzetta = "0.2"
+libzetta = { path = "../../Inner-Heaven/libzetta-rs" }
+pest = "2"
+pest_derive = "2"
+systemstat = "0"
+# version-compare = "0.1.0"
+# fuser = "0.9.1"
+# zbus            = { git = "https://gitlab.freedesktop.org/dbus/zbus.git", features = ["gvariant"] }
+# zbus_polkit     = { git = "https://gitlab.freedesktop.org/dbus/zbus.git" }
